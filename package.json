@@ -1,0 +1,23 @@
+{
+  "name": "amusedgroupassignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js -p runner",
+    "dry:test": "npx cucumber-js -p --dry-run",
+    "test:tags": "npx cucumber-js -p runner --tags"
+  },
+  "keywords": [],
+  "author": "shehan.r",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.3.0",
+    "@cucumber/pretty-formatter": "^1.0.0",
+    "@playwright/test": "^1.36.1",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.1",
+    "ts-node": "^10.9.1"
+  }
+}
